@@ -1,0 +1,90 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(5, 5, 5, 0.5);
+    padding: 20px 40px;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Navbar Link Hover Effect */
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Fredoka';
+}
+
+nav ul li a:hover {
+    color: rgb(141, 136, 136);
+}
+
+.contentt {
+    text-align: center;
+    padding: 300px;
+    color: rgb(32, 31, 30);
+  }
+
+  .contentt h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'fredoka';
+  }
+  
+  .h3 {
+    font-size: 20px;
+    padding: 300px;
+    font-weight: bold;
+  }
+
+.p {
+    font-size: 25px;
+    padding: 250px;
+    font-weight: bold;
+    
+}
+
+.url {
+    font-size: small;
+}
+  
+
+ 
